@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* { /*O asterisco serve para refernciar todo o documento html*/
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    position: sticky;
+    top: 20px;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.linha {
+    display: table;
+}
+
+section#conteudo {
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+
+section#cabeçalho {
+    text-align: center;
+
+}
+
+.título {
+    font-size: 40pt;
+    font-family: 'Abril Fatface', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav {
+    padding: 10px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(218, 218, 218);
+}
+
+a {
+    text-decoration: none;
+}
+
+a#html {
+    
+}
+
+a#css {
+    
+}
+
+section#rodapé {
+    text-align: center;
+}
+
+p#componente {
+    margin: 0;
+}
+
+img {
+    margin-top: 30px;
+}
