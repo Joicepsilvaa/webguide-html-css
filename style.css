@@ -20,6 +20,12 @@ aside {
     justify-content: center;
 }
 
+section#conteudo {
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+
 div#quemsomos {
     padding: 20px;
 }
@@ -30,12 +36,6 @@ span {
 
 .linha {
     display: table;
-}
-
-section#conteudo {
-    float: left;
-    width: 75%;
-    padding: 20px;
 }
 
 article {
@@ -81,7 +81,9 @@ a#css {
 
 section#rodapé {
     text-align: center;
-    background-color: rgb(83, 83, 83);
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(218, 218, 218);
 }
 
 p#componente {
@@ -90,4 +92,22 @@ p#componente {
 
 img {
     margin-top: 30px;
+}
+
+#user_image {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+#repositorio {
+    color: black;
+}
+
+@media (max-width: 720px) {
+    #user_image {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
 }
