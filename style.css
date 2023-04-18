@@ -12,10 +12,20 @@ body {
 
 aside {
     position: sticky;
-    top: 20px;
+    top: 0;
     float: left;
     width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#quemsomos {
     padding: 20px;
+}
+
+span {
+    padding: 5px 5px;
 }
 
 .linha {
@@ -28,18 +38,24 @@ section#conteudo {
     padding: 20px;
 }
 
+article {
+    text-align: justify;
+}
+
 section#cabeçalho {
     text-align: center;
 
 }
 
 .título {
+    height: 161px;
+    margin: 0;
     font-size: 40pt;
     font-family: 'Abril Fatface', cursive;
-    display: flex;
+    background-color: #FFE67A;
     align-items: center;
     justify-content: center;
-    
+    display: flex;
 }
 
 nav {
@@ -52,18 +68,20 @@ nav {
 
 a {
     text-decoration: none;
+    color: #ffd000;
 }
 
 a#html {
-    
+    margin: 0 15px;
 }
 
 a#css {
-    
+    margin: 0 15px;
 }
 
 section#rodapé {
     text-align: center;
+    background-color: rgb(83, 83, 83);
 }
 
 p#componente {
