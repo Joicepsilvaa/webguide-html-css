@@ -59,6 +59,7 @@ section#cabeçalho {
 }
 
 nav {
+    background-color: rgb(248, 248, 248);
     padding: 10px;
     border-top: solid;
     border-bottom: solid;
@@ -68,7 +69,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: #ffd000;
+    color: #ffbb00;
 }
 
 a#html {
@@ -94,7 +95,7 @@ img {
     margin-top: 30px;
 }
 
-#user_image {
+.user_image {
     width: 68px;
     height: 68px;
     border-radius: 50%;
@@ -105,7 +106,7 @@ img {
 }
 
 @media (max-width: 720px) {
-    #user_image {
+    .user_image {
         width: 48px;
         height: 48px;
         border-radius: 50%;
